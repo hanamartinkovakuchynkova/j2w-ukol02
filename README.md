@@ -1,3 +1,8 @@
+# TASK 2 | JAVA 2 by Czechitas
+
+The goal is to create a web page that displays a randomly selected quote (from the quotes.txt file) and a randomly selected image (from the Unsplash photo library)
+every time it loads. The project already had stylesheets for this.
+
 # Úkol 2
 
 Cílem je vytvořit webovou stránku, která při každém načtení zobrazí náhodně zvolený citát a náhodně zvolený obrázek. Stránka může vypadat nějak takhle

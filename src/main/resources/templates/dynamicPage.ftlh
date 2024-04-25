@@ -1,3 +1,4 @@
+[#ftl]
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +8,16 @@
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/images/favicon.png" rel="icon" type="image/png">
+    [#--<style>
+        .bold-first-word {
+            font-weight: bold;
+        }
+    </style>--]
 </head>
-<body style="background-image: url(https://source.unsplash.com/RFHFV7lVQBY/1600x900);">
-<blockquote><strong>Debugging</strong> /de·bugh·ing/ <em>verb</em><br/>The Classic Mystery Game where you are the detective, the victim, and the murderer.
-</blockquote>
+<body style="background-image: url(${picture});">
+<blockquote>${quote}</blockquote>
+
+[#--<blockquote><span class="bold-first-word">${quote?substring(0, quote?index_of(" "))}</span> ${quote?substring(quote?index_of(" ") + 1)}</blockquote>--]
+
 </body>
 </html>
